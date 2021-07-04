@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
-    color: grey;
+    color: rgb(231, 231, 231);
     margin: 0;
     background-image:url(images/9267550ce1c5b79f73ba252ff49cb01d.gif);
     background-repeat: inherit;
@@ -13,10 +13,11 @@ body{
     display: flex;
     margin-bottom: 100px;
 }
-.half-width, .middle-banner{
+.half-width{
     width: 50%;
     padding-left: 5%;
     padding-right: 2%;
+
 }
 img{
     border-radius: 60%;
@@ -40,7 +41,31 @@ img{
     background-image: url(images/—Pngtree—red\ black\ business\ atmosphere\ business_1099200.jpg);
     background-repeat: no-repeat;
 }
-.one-third{
-   
+.triology{
+    box-shadow: 10px 10px 20px rgb(77, 73, 73);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
     
+}
+#b-begins{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0, 0, 0),red);
+    border-image-slice: 1;
+}
+#d-knight{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, black);
+    border-image-slice: 1;
+}
+#d-rises{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0, 0, 0),red);
+    border-image-slice: 1;
+}
+footer p{
+    font-size: 18px;
+    text-align: center;
+    color: lavender;
 }
