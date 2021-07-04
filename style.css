@@ -3,18 +3,22 @@ body{
     font-size: 30px;
     color: grey;
     margin: 0;
+    background-image:url(images/9267550ce1c5b79f73ba252ff49cb01d.gif);
+    background-repeat: inherit;
 }
 .yellow{
     color: red;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
-.half-width{
+.half-width, .middle-banner{
     width: 50%;
     padding-left: 5%;
+    padding-right: 2%;
 }
-.half-width img{
+img{
     border-radius: 60%;
     width: 80%;
    
@@ -28,8 +32,10 @@ section{
     border-radius: 10px;
     
 }
-.top-banner{
+.top-banner, .give-up{
     background-image: url(images/—Pngtree—red\ black\ business\ atmosphere\ business_1099200.jpg);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat
+    
+    
 
 }
